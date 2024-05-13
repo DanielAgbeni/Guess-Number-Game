@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess My number</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <header>
-    <h1>Guess My number</h1>
-    <p class="between">(Between 1 and 20)</p>
-    <button class="btn again">Retry!</button>
-    <div class="number">?</div>
-    <div class="user">!</div>
-    <div class="vs">≠</div>
-   </header>
-   <main>
-    <div class="diff">
-        <p class="note">Choose yur difficulty level</p>
-        <span><button class="btn1">Easy</button> <button class="btn2">Medium</button> <button class="btn3">Hard</button></span>
-    </div>
-    <section class="left clean">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-    </section>
-    <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score"></span></p>
-        <p class="label-highscore">
-            🥇 Highscore: <span class="highscore">0</span>
-        </p>
-    </section>
-   </main>
-   <div class="overlay hidden">
-    <div class="win hidden">
-    <p>🎉Winner🎉</p>
-    <p class="showScore"></p>
-    </div>
-   </div>
-   <div class="show hide">
-    <div class="range"></div>
-   </div>
-    <script src="main.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Guess My number</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Guess My number</h1>
+			<p class="between">(Between 1 and 20)</p>
+			<button class="btn again">Retry!</button>
+			<div class="number">?</div>
+			<div class="user">!</div>
+			<div class="vs">≠</div>
+		</header>
+		<main>
+			<div class="diff">
+				<p class="note">Choose yur difficulty level</p>
+				<span
+					><button class="btn1">Easy</button>
+					<button class="btn2">Medium</button>
+					<button class="btn3">Hard</button></span
+				>
+			</div>
+			<section class="left clean">
+				<input
+					type="number"
+					class="guess" />
+				<button class="btn check">Check!</button>
+			</section>
+			<section class="right">
+				<p class="message">Start guessing...</p>
+				<p class="label-score">💯 Score: <span class="score"></span></p>
+				<p class="label-highscore">
+					🥇 Highscore: <span class="highscore">0</span>
+				</p>
+			</section>
+		</main>
+		<div class="overlay hidden">
+			<div class="win hidden">
+				<p>🎉Winner🎉</p>
+				<p class="showScore"></p>
+			</div>
+		</div>
+		<div class="show hide">
+			<div class="range"></div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
